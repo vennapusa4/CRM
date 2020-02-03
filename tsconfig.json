@@ -1,0 +1,20 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "outDir": "./dist",
+        "declaration": false,
+        "target": "es6"
+       
+    },
+    "files": [
+        "./lib/app.ts",
+        "./lib/types.ts",
+        "./lib/bot.ts"
+    ]
+}
